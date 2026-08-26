@@ -2,11 +2,11 @@
 
 This repository contains a reproducible QIIME 2 workflow for amplicon-based soil microbiome analysis.
 
-The workflow demonstrates sequence processing, quality control, DADA2 denoising, taxonomic assignment, diversity analysis, and downstream visualization in R.
+The workflow demonstrates sequence processing, quality control, DADA2 denoising, taxonomic assignment, diversity analysis, and taxonomic classification.
 
 ## Workflow
 
-Raw sequencing data  
+Raw sequencing data (Not given due to publication-in-progress) 
 ↓  
 QIIME 2 import  
 ↓  
@@ -16,29 +16,32 @@ Primer trimming
 ↓  
 DADA2 denoising and ASV inference  
 ↓  
-Taxonomic classification  
+Alpha and beta diversity  
 ↓  
 Phylogenetic analysis  
 ↓  
-Alpha and beta diversity  
-↓  
-Statistical analysis and visualization in R
+Taxonomic classification  
 
 ## Sequencing Workflows
 
 - Paired-end amplicon sequencing
 - Single-end amplicon sequencing
 
+## Platform
+
+- Illumina MiSeq i100
+
 ## Tools
 
 - QIIME 2
 - DADA2
 - Cutadapt
-- R
 - phyloseq
 - ggplot2
 - vegan
-- Linux/Bash
+- Linux
+
+## Repository Structure
 
 ## Repository Structure
 
@@ -46,6 +49,19 @@ Statistical analysis and visualization in R
 QIIME2-workflow_Soil-microbiome-analysis/
 │
 ├── paired-end/
+│   ├── 01_import.sh
+│   ├── 02_primer_removal.sh
+│   ├── 03_dada2.sh
+│   ├── 04_taxonomy.sh
+│   └── 05_diversity.sh
+│
 ├── single-end/
-├── R/
-└── README.md
+│   ├── 01_import.sh
+│   ├── 02_primer_removal.sh
+│   ├── 03_dada2.sh
+│   ├── 04_taxonomy.sh
+│   └── 05_diversity.sh
+│
+├── README.md
+├── environment.yml
+└── .gitignore
