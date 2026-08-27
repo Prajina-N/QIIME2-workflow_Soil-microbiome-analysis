@@ -62,6 +62,11 @@ QIIME2-workflow_Soil-microbiome-analysis/
 │   ├── 04_taxonomy.sh
 │   └── 05_diversity.sh
 │
+├── manifests/
+│   ├── paired-end-manifest.txt
+│   └── single-end-manifest.txt
+│
 ├── README.md
 ├── environment.yml
 └── .gitignore
+
