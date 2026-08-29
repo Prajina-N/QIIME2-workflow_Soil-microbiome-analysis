@@ -10,7 +10,7 @@ qiime tools import \
   --input-format PairedEndFastqManifestPhred33V2
 
 # View the imported demultiplexed data and inspect sequencing quality scores.
-## Quality profiles will be used to determine appropriate trimming and truncation parameters for 
-## DADA2 denoising step.qiime demux summarize \
+## Quality profiles will be used to determine appropriate trimming and truncation parameters for DADA2 denoising step.
+qiime demux summarize \
   --i-data paired-end-demux.qza \
   --o-visualization paired-end-demux.qzv
