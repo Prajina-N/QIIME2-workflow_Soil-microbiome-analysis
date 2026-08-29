@@ -1,6 +1,6 @@
 # QIIME 2 Workflow: Soil Microbiome Analysis
 
-This repository contains a reproducible QIIME 2 workflow for amplicon-based soil microbiome analysis.
+This repository contains a reproducible QIIME 2 workflow for amplicon-based soil microbiome analysis. Actual sequencing data files are not included because the associated publication is currently in progress.
 
 The workflow demonstrates sequence processing, quality control, DADA2 denoising, taxonomic assignment, diversity analysis, and taxonomic classification.
 
