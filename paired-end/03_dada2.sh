@@ -18,7 +18,7 @@ qiime dada2 denoise-paired \
 
 ## Inspect the feature table to review sample sequencing depth and determine an appropriate sampling depth for downstream diversity analysis.
 
-## Insoect base transition stats to examine nucleotide transition error rates across quality scores to assess how well DADA2 models sequencing errors.
+## Inspect base transition stats to examine nucleotide transition error rates across quality scores to assess how well DADA2 models sequencing errors.
 
 ### Sampling depth will be evaluated more formally during the alpha rarefaction step.
 
@@ -37,5 +37,5 @@ qiime feature-table tabulate-seqs \
 
 qiime dada2 plot-base-transitions \
   --i-base-transition-stats base-transition-stats.qza \
-  --o-visualization base-transition-stats.qzv
+  --o-visualization base-transition-stats.qzv  
 
