@@ -1,7 +1,7 @@
 # Calculate standard alpha and beta diversity metrics using QIIME 2.
 
 ## This approach uses a single selected sampling depth for rarefaction.
-### For the primary analysis, I use an iterative rarefaction approach in R to reduce dependence on a single random subsampling event.
+### For the primary analysis, I like to use an iterative rarefaction approach in R to reduce dependence on a single random subsampling event.
 
 qiime diversity core-metrics-phylogenetic \
   --i-table table.qza \
