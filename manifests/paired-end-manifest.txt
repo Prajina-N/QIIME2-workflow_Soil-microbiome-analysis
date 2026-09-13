@@ -1,0 +1,9 @@
+# This is just an example. You will need to replace the file path with your own. 
+# This manifest file is what you will be using in import.sh
+
+sample-id	forward-absolute-filepath	reverse-absolute-filepath
+Sample01	/path/to/fastq/Sample01_R1.fastq.gz	/path/to/fastq/Sample01_R2.fastq.gz
+Sample02	/path/to/fastq/Sample02_R1.fastq.gz	/path/to/fastq/Sample02_R2.fastq.gz
+Sample03	/path/to/fastq/Sample03_R1.fastq.gz	/path/to/fastq/Sample03_R2.fastq.gz
+Sample04	/path/to/fastq/Sample04_R1.fastq.gz	/path/to/fastq/Sample04_R2.fastq.gz
+Sample05	/path/to/fastq/Sample05_R1.fastq.gz	/path/to/fastq/Sample05_R2.fastq.gz
