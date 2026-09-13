@@ -52,19 +52,13 @@ QIIME2-workflow_Soil-microbiome-analysis/
 │   ├── 01_import.sh
 │   ├── 02_primer_removal.sh
 │   ├── 03_dada2.sh
-│   ├── 04_taxonomy.sh
-│   └── 05_diversity.sh
-│
-├── single-end/
-│   ├── 01_import.sh
-│   ├── 02_primer_removal.sh
-│   ├── 03_dada2.sh
-│   ├── 04_taxonomy.sh
-│   └── 05_diversity.sh
+│   ├── 04_phylogeny_tree.sh
+│   ├── 05_alpha_rarefaction.sh
+│   ├── 06_core_diversity_metrics.sh
+│   └── 07_training_classifier.sh
 │
 ├── manifests/
-│   ├── paired-end-manifest.txt
-│   └── single-end-manifest.txt
+│   └── paired-end-manifest.txt
 │
 ├── README.md
 ├── environment.yml
